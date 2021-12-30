@@ -1,0 +1,68 @@
+/* default styling */
+html{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* descendent selector */
+header h1{
+    font-weight: 400;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    /* 1rem = font-size of root item(here it is 16px) */
+    margin: 0 5rem;
+}
+
+nav{
+    width: 20rem;
+    position: relative;
+    top: 1rem;
+    right: 3rem;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    font-size: 1.5rem;
+}
+.showcase_img{
+    width: 93vw;
+    margin: 0 2rem;
+}
+
+article{
+    margin: 3rem 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}  
+
+.content > p{
+    text-align: justify;
+}
+
+.content{
+    width: 25rem;
+    font-size: larger;
+}
+
+footer{
+    height: 7vh;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    /* aligning text content */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color: red;
+}
